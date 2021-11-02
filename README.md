@@ -3,7 +3,7 @@
 ## Description
 Command line script which parses a cron string and
 expands each field to show the times at which it will run.  
-Parser support standart cron format, 
+Parser support standard cron format, 
 except special strings such as "@yearly"
 
 ## Example
@@ -22,7 +22,7 @@ command       /usr/bin/find
 ```
 
 ## Usage
-The cron string will be passed to your application as a single argument.
+The cron string should be passed to your application as a single argument.
 
 ```shell
 ~$ cron "*/15 0 1,15 * 1-5 /usr/bin/find"
